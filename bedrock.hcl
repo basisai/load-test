@@ -17,10 +17,9 @@ train {
 
     parameters {
         ENDPOINT_URL = "https://"
-        POST_BODY = "{}"
         THREAD = "4"
-        CONNECTIONS = "16"
-        THROUGHPUT = "1000"
+        CONNECTIONS = "8"
+        THROUGHPUT = "20"
         RUN_TIME = "5m"
     }
 }
